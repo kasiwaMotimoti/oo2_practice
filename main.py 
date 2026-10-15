@@ -11,7 +11,7 @@ from modules import SayHello
 def run():
     #print(App.__file__)
     #print("a")
-    app = SayHello("Git")
+    app = SayHello("GitHub!!")
     app.say()
 
 if __name__ == '__main__':
