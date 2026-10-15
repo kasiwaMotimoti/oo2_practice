@@ -1,0 +1,19 @@
+
+import sys
+from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+
+from modules import SayHello
+
+
+
+def run():
+    #print(App.__file__)
+    #print("a")
+    app = SayHello("Git")
+    app.say()
+
+if __name__ == '__main__':
+
+    run()
